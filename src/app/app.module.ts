@@ -6,15 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NoteComponent } from './note/note.component';
 import { ReminderComponent } from './reminder/reminder.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
-  declarations: [
+  declarations: [ /// dich: khai bao
     AppComponent,
     HeaderComponent,
     NoteComponent,
-    ReminderComponent
+    ReminderComponent,
+    HeroesComponent
   ],
-  imports: [
+  imports: [ /// khai nhap
     BrowserModule,
     AppRoutingModule
   ],
@@ -22,3 +24,4 @@ import { ReminderComponent } from './reminder/reminder.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+ 
