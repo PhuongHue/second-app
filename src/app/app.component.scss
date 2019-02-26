@@ -10,6 +10,7 @@ h1 {
     font-weight: lighter;
   }
   body {
+    box-sizing: border-box;
     margin: 2em;
   }
   body, input[type="text"], button {
@@ -20,3 +21,12 @@ h1 {
   * {
     font-family: Arial, Helvetica, sans-serif;
   }
+.app-title{
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 3px  pink;
+}

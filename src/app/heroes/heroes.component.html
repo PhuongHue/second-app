@@ -1,1 +1,12 @@
-<h1>heroes works!</h1>
+<h2>{{hue.name| uppercase}} Details</h2>
+<div>
+    <span>id: </span>{{hue.id}}
+</div>
+<div>
+    <span>name: </span>{{hue.name}}
+</div>
+<div class="input-container">
+    <label>name:
+        <input [(ngModel)]="hue.name" placeholder="name">
+    </label>
+</div>

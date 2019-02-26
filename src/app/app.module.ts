@@ -7,7 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { NoteComponent } from './note/note.component';
 import { ReminderComponent } from './reminder/reminder.component';
 import { HeroesComponent } from './heroes/heroes.component';
-
+import { FormsModule } from '@angular/forms'
 @NgModule({
   declarations: [ /// dich: khai bao
     AppComponent,
@@ -18,7 +18,8 @@ import { HeroesComponent } from './heroes/heroes.component';
   ],
   imports: [ /// khai nhap
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
